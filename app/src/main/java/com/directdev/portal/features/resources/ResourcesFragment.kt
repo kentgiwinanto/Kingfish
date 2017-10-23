@@ -76,7 +76,7 @@ class ResourcesFragment : Fragment(), AnkoLogger, ResourcesContract.View {
         bundle.putString("content", "resources")
         fbAnalytics.logEvent("content_opened", bundle)
 
-        presenter.sync()
+        //presenter.sync()
         /*realm = Realm.getDefaultInstance()
         val term = realm.where(TermModel::class.java).max("value")
         val courses = realm.where(CourseModel::class.java)

@@ -45,7 +45,7 @@ class MainActivity : Activity(), AnkoLogger, HasFragmentInjector {
                 R.id.tab_journal -> JournalFragment()
                 R.id.tab_grades -> GradesFragment()
                 R.id.tab_finances -> FinancesFragment()
-                R.id.tab_resources -> ResourcesFragment()
+            //    R.id.tab_resources -> ResourcesFragment()
             // R.id.tab_resources -> ResourcesFragment()
                 else -> JournalFragment()
             }

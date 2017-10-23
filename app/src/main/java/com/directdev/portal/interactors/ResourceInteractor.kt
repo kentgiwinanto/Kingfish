@@ -19,7 +19,7 @@ class ResourceInteractor @Inject constructor(
     }
 
     //TODO: CLEAN THIS UP
-    fun fetchResources(data: RealmResults<CourseModel>): Single<Unit> {
+ /*   fun fetchResources(data: RealmResults<CourseModel>): Single<Unit> {
         isActive = true
         val cookie = ctx.readPref(R.string.cookie, "")
         return Single.zip(data.map {
@@ -55,6 +55,6 @@ class ResourceInteractor @Inject constructor(
         }.doAfterTerminate {
             isActive = false
         }
-    }
+    }*/
 
 }
