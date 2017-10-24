@@ -5,6 +5,7 @@ import android.app.Fragment
 import android.os.Bundle
 import com.directdev.portal.R
 import com.directdev.portal.features.finance.FinancesFragment
+import com.directdev.portal.features.grades.GradesFragment
 import com.directdev.portal.features.journal.JournalFragment
 import com.directdev.portal.utils.readPref
 import dagger.android.AndroidInjection
