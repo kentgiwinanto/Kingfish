@@ -5,9 +5,7 @@ import android.app.Fragment
 import android.os.Bundle
 import com.directdev.portal.R
 import com.directdev.portal.features.finance.FinancesFragment
-import com.directdev.portal.features.grades.GradesFragment
 import com.directdev.portal.features.journal.JournalFragment
-import com.directdev.portal.features.resources.ResourcesFragment
 import com.directdev.portal.utils.readPref
 import dagger.android.AndroidInjection
 import dagger.android.AndroidInjector
@@ -45,7 +43,6 @@ class MainActivity : Activity(), AnkoLogger, HasFragmentInjector {
                 R.id.tab_journal -> JournalFragment()
                 R.id.tab_grades -> GradesFragment()
                 R.id.tab_finances -> FinancesFragment()
-                R.id.tab_resources -> ResourcesFragment()
             // R.id.tab_resources -> ResourcesFragment()
                 else -> JournalFragment()
             }
