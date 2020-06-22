@@ -4,7 +4,17 @@
     "owner": "TestongOwner"
   },
   "detail": {
-    "contributors": [],
-    "diagrams": []
+    "contributors": [
+      {
+        "name": "test"
+      }
+    ],
+    "diagrams": [
+      {
+        "title": "testong",
+        "thumbnail": "./public/content/images/thumbnail.jpg",
+        "id": 0
+      }
+    ]
   }
 }
